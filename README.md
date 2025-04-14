@@ -19,7 +19,7 @@ A aplicação funciona da seguinte forma:
 #### Pré requisitos:
 
 - Ter o Python instalado
-- Ter o FFmpeg instalado no seu desktop
+- Ter o FFmpeg instalado e configurado no sistema
 - Criar um arquivo .env na raiz do projeto com a seguinte variável:
   
 ```bash
@@ -35,7 +35,7 @@ Clone o repositório:
 
 Acesse o diretório do projeto:
 ```bash
-  cd esumoVideoIA
+  cd ResumoVideoIA
 ```
 
 Instale as dependências:
@@ -45,5 +45,5 @@ Instale as dependências:
 
 Execute a aplicação:
 ```bash
-  python .\app.py <link de um video>
+  python app.py <link-do-video>
 ```
